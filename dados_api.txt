@@ -1,0 +1,14 @@
+
+- Usar versão 2.41 ou 0.2.6 do typeorm
+- Criar Migration: yarn typeorm migration:create CreateDpto
+--- yarn typeorm migration:create src/database/migrations/CriarDpto
+
+import "./database";
+
+DATABASE
+
+ENTITIES
+Classes que referenciam tabelas nos banco de dados;
+
+SERVICES
+1 service pra cada funcionalidade deixa o código mais limpo
